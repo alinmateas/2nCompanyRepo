@@ -22,6 +22,7 @@ public class CompanyEntity {
     public Company toPojo() {
         Company pojo = new Company();
         pojo.setName(name);
+
         pojo.setData(data);
         return pojo;
     }
